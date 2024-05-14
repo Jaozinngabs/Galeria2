@@ -8,7 +8,7 @@ style.css
 }
 
 body{
-    background-image: url("nada.jpg");
+    background-image: url("BIG.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -22,7 +22,7 @@ body{
 }
 
 h1{
-   color: #ffffff;
+   color: #000000;
    font-weight: 20;
    font-size: 600%;
 }
@@ -44,6 +44,11 @@ h1{
     border: 2px solid rgb(61, 49, 45);
     border-radius: 20px;
     width: 60%;
+    transition: .2s;
+}
+.foto a img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #0000009f;
 }
 
 .video{
